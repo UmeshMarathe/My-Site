@@ -1,0 +1,161 @@
+/***************************************Anchor Tag*******************************/
+h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #222831;
+  font-weight: bold
+}
+
+li {
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #34626c;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #8f384d;
+}
+
+td {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold
+}
+
+p {
+  font-family: "arial";
+  font-weight: bold
+}
+
+/***************************************Class Tag*****************************/
+.Graphic {
+  color: red;
+  font-weight: bold;
+}
+
+.Devlopment {
+  color: blue;
+  font-weight: bold;
+}
+
+.App {
+  color: green;
+  font-weight: bold;
+}
+
+.web {
+  color: brown;
+  font-weight: bold;
+}
+
+.Know {
+  color: Red;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.Contact {
+  font-family: 'Poppins', sans-serif;
+  color: red;
+  font-weight: bold;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.I {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-size: 15px;
+}
+
+.umesh {
+  height: 100px;
+  width: 100px;
+}
+
+.ONE {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.button {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.Welcome {
+  color: red;
+  font-weight: bold;
+}
+
+.gradient-multiline {
+  position: relative;
+  width: 300px;
+  margin: 40px auto;
+  background-color: #fff;
+  text-align: center;
+  line-height: 1.5em;
+  overflow: hidden;
+}
+
+body {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,sans-serif;
+  background-color: #fff;
+}
+
+
+body {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,sans-serif;
+  background-color: #fff;
+}
+
+.gradient-multiline {
+  position: relative;
+  width: 300px;
+  margin: 40px auto;
+  background-color: #fff;
+  text-align: center;
+  line-height: 1.5em;
+  overflow:hidden;
+}
+
+.gradient-multiline span {
+  color: #fff;
+  background-color: #000;
+
+  padding: 0.225rem 0.5rem;
+
+  /* Needs prefixing */
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+@supports(mix-blend-mode: lighten) {
+
+  .gradient-multiline::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    background: linear-gradient(60deg, #3629a2, #00ceff);
+
+    mix-blend-mode: lighten;
+  }
+
+}
